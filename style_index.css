@@ -1,0 +1,148 @@
+@charset "UTF -8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-attachment: 0E1428;
+    font-family: "Karla", sans-serif;
+
+}
+
+nav{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.img_logo_text{
+    width: 5rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+
+}
+
+.links > ul > li > a {
+    color: black;
+}
+
+.links > ul > li > a:hover {
+    color: blue;
+    transition: 0.3s all;
+   
+}
+
+.links>li{
+    margin: 0 1rem 0 1 rem;
+}
+
+.login_nav >li>a{
+    color:rgb(17, 0, 255);
+    font-weight: 680;
+    outline: solid 2px rgb(35, 35, 125);
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+
+.login_nav >li>a:hover{
+   color: black;
+}
+
+.links_4 {
+    display: flex;
+
+}
+
+
+.links_4 > li {
+    margin:0 1rem 0 1rem ;
+
+}
+
+.main_section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20vh;
+
+}
+
+.main_section > div {
+    height: 55vh;
+}
+
+.main_section > div> h1 {
+    color: black;
+    font-size: 4rem;
+    width: 40 rem;
+    margin:auto;
+    line-height: 4rem;
+
+
+}
+
+.main_section > div > li> a {
+    background-color: rgb(17, 0, 255);
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 1px;
+    font-weight: 600;
+
+}
+
+.description{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+
+}
+
+.description >div{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+
+.description >div>div>h2{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.description>div>div>p{
+    width:2rem;
+    color:darkgrey;
+
+
+}
+
+.description>div>div>img{
+    margin: 1rem;
+
+
+}
+
+@media screen and (min-wdth : 1024px){
+    #burger{
+        display: none;
+    }
+}
